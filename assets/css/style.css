@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    max-width: 100% !important;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* pertama */
+
+#pertama{
+    background: url('../img/bg1.jpg') no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+   -ms-background-size: cover;
+    -moz-background-size: cover;
+
+    height: 650px;
+    padding-top: 20px;
+}
+
+.clear{
+    clear: both;
+}
+/* clear:both berguna untuk menghapuskan float sebelomnya (kiri dan kanan) */
+
+.konten{
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.kolom_3{
+    width: 31%;
+    float: left;
+
+}
+
+.kolom_3_tengah{
+    margin: 0 3%;
+}
+
+#logo{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+#menu{
+    background-color: rgba(54, 53, 52, 1);
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#menu-text{
+    display: none;
+    color: white;
+    padding-left: 10px;
+}
+
+#menu a{
+    display: block;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#menu a:hover{
+    background-color: rgb(194, 128, 6);
+}
+
+#box{
+    background-color: rgba(54, 53, 52, 0.8);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 80px 0;
+    padding: 20px 0;
+}
+
+
+
+
+#box a{
+    display: block;
+    padding: 5px 0;
+    width: 300px;
+    margin: 25px auto 0 auto;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%)}
+.btn-grad {
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s, box-shadow 1s ease-in-out 0.6s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   box-shadow: 0 0 20px #eee;
+   text-decoration: none;
+ }
+
+/* Bagian Kedua */
+
+#kedua{
+    background-color:rgba(54, 53, 52);
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2,h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 30px 0 45px 0;
+    width: 250px;
+    margin: 0 auto;
+}
+
+#kedua img{
+    width: 250px;
+    height: 225px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.gambar{
+    position: relative;
+}
+
+.gambar p{
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 250px;
+    height: 225px;
+    line-height: 225px;
+    text-align: center;
+    background-color:rgba(221, 101, 3, 0.7);
+    font-size: 25px;
+    color: white;
+    border-radius: 50%;
+    display: none;
+    transition: 0.8s ease-in-out 0.8s;
+}
+
+.gambar:hover p{
+    display: block;
+}
+
+.deskripsi{
+    font-size: 22px;
+}
+
+
+/* Bagian ketiga */
+
+.kolom_2{
+    float: left;
+    width: 46%;
+    margin: 0 1.5%;
+}
+
+#ketiga h2{
+    text-align: center;
+    color: rgba(54, 53, 52);
+
+}
+
+
+#ketiga input, #ketiga textarea{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 12px;
+    border: 2px solid rgba(54, 53, 52) ;
+}
+
+
+
+#ketiga input[type="text"], #ketiga input[type="email"]{
+    width: 70%;
+}
+
+
+#ketiga {
+    background-color: rgb(254,197,65);
+}
+
+#ketiga textarea{
+    height: 130px;
+    resize: none;
+}
+
+input[type="submit"] {background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%)}
+input[type="submit"] {
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s, box-shadow 1s ease-in-out 0.8s;
+   background-size: 200% auto;
+   color: rgba(19, 124, 59, 0.918); 
+   font-weight: bold;           
+   border-radius: 10px;
+   display: block;
+ }
+
+ input[type="submit"]:hover, .panah_box:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+   box-shadow: 0 0 10px rgba(255, 255, 255,1 ),
+   0 0 20px rgba(255, 255, 255,1 ), 0 0 30px rgba(255, 255, 255,1 ),
+   0 0 40px rgba(255, 255, 255,.5 ),0 0 110px rgba(255, 255, 255,.4 ),
+   0 0 80px rgba(255, 255, 255,.3 ),0 0 130px rgba(255, 255, 255,.2 );
+ }
+
+#ketiga iframe{
+    max-width: 450px;
+}
+
+/* bagian setiap karya */
+
+.panah_box{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    background-color: rgba(221, 101, 3, 0.7);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px;
+}
+
+#karya_box{
+    width: 83%;
+    margin: 0 20px;
+}
+
+.panah_box, #karya_box, #karya_box_kr, #karya_box_kn{
+    float: left;
+}
+
+#karya_box_kn{
+    width: 500px;
+    height: 350px;
+}
+
+#karya_box_kr{
+    width: 29%;
+    padding: 30px 10px 0 10px;
+    height: 320px;
+    background-color:rgba(221, 101, 3, 0.7);
+    color: white;
+}
+
+#karya_box_kr h4{
+    font-size: 30px ;
+    margin-bottom: 30px;
+}
+
+#karya_box_kr .deskripsi{
+    font-size: 16px;
+
+}
+
+#karya_lain{
+    width: 450px;
+    margin: 50px auto 0 auto;
+}
+
+#karya_lain img{
+    display: block;
+    float: left;
+    width: 140px;
+    margin-left: 10px;
+}
+
+
+
+
+/* footer */
+
+#footer{
+    background-color:rgba(54, 53, 52) ;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.error{
+    color: rgba(54, 53, 52);
+    font-weight: bolder;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+#nav-icon{
+    display: none;
+}
+
+
+
+/* --------------------- */
+/* responsive */
+/* --------------------- */
+
+@media only screen and (max-width:1024px){
+
+    #box_sd{
+        font-size: 26px;
+    }
+
+    #pertama{
+        height: auto;
+    }
+
+    h2{
+        font-size: 34px;
+    }
+
+    .setiap_karya_gambar p{
+        position: static;
+        margin: 0 auto;
+        display: block;
+        height: auto;
+        color: white;
+        background-color: transparent;
+        line-height: normal;
+    }
+
+
+}
+
+/* untuk halaman folio */
+#karya_box, #karya_box_kr, #karya_box_kn{
+    float: none;
+    width: 98%;
+    margin: 0 auto;
+    height: auto;
+}
+
+#karya_box img{
+    width: 100%;
+}
+
+#karya_box_kr{
+    padding: 2%;
+    width: 86%;
+}
+
+.panah_box{
+    position: fixed;
+    top: 30%;
+}
+
+.panah_box_kn{
+    right: 0%;
+}
+
+.panah_box_kr{
+    left: 0%;
+}
+
+#karya_lain img{
+    width: 30%;
+    
+}
+
+@media only screen and (max-width:480px){
+
+    #pertama{
+        background-attachment: fixed;
+    }
+
+    .kolom_3, .kolom_2{
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    #menu{
+        position: relative;
+    }
+
+    #nav-icon{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        width: 25px;
+        height: 25px;
+    }
+
+    #box_sd{
+        font-size: 13px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    #kedua img{
+        width: 200px;
+        height: 200px;
+    }
+
+    #kedua p{
+        font-size: 18px;
+    }
+
+    #kedua .kolom_3{
+        margin: 10px auto;
+
+    }
+
+
+    #pertama{
+        height: auto;
+    }
+
+    /* NAV MENU */
+    #menu .konten{
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    #menu-text{
+        display: block;
+        color: white;
+    }
+
+    .menu-open{
+        max-height: 100% !important;
+
+    }
+
+    #menu{
+        height: auto;
+        font-size: 15px;
+    }
+
+    #menu a{
+        border-bottom: 1px solid white;
+    }
+
+} ;
+    
+
+
+    
