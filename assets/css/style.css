@@ -356,10 +356,6 @@ input[type="submit"] {
         background-color: transparent;
         line-height: normal;
     }
-
-
-}
-
 /* untuk halaman folio */
 #karya_box, #karya_box_kr, #karya_box_kn{
     float: none;
@@ -394,6 +390,10 @@ input[type="submit"] {
     width: 30%;
     
 }
+
+}
+
+
 
 @media only screen and (max-width:480px){
 
